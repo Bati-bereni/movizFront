@@ -81,9 +81,7 @@ function Home() {
   // ];
 
   useEffect(() => {
-    fetch(
-      "https://moviz-back-dzkw17de7-batis-projects-306299f5.vercel.app/movies"
-    )
+    fetch("https://moviz-back-rho.vercel.app/movies")
       .then((response) => response.json())
       .then((data) => {
         const newTab = [];
